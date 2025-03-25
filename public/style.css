@@ -32,8 +32,7 @@ header li a {
 }
 
 .post-container {
-    display: flex;
-    flex-direction: column;
+    display: fixed;
     align-items: center;
     text-align: center;
     max-width: 800px;
@@ -58,6 +57,7 @@ header li a {
 }
 
 .action-buttons {
+    justify-content: center;
     display: flex;
     gap: 10px;
 }
@@ -79,6 +79,7 @@ header li a {
 }
 
 .comments-container {
+    text-align: center;
     max-width: 800px;
     margin: 20px auto;
     background: #f9f9f9;
@@ -113,6 +114,7 @@ header li a {
 }
 
 .comment-text {
+    text-align: left;
     font-size: 14px;
     color: #444;
     line-height: 1.4;
