@@ -10,7 +10,6 @@
         <form method="POST" action="/posts">
             @csrf
 
-            {{-- Content --}}
             <input name="content" placeholder="Ieraksta saturs" required>
 
             @error("content")
